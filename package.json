@@ -10,12 +10,13 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby clean && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@esri/calcite-components-react": "^2.10.1",
     "gatsby": "^5.13.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
