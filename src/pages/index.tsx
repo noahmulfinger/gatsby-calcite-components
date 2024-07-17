@@ -119,7 +119,7 @@ import { CalciteSlider } from "@esri/calcite-components-react";
 const IndexPage: React.FC = () => {
   return (
     <main>
-      <h1>Calcite components integration</h1>
+      <h1>Gatsby Calcite Components</h1>
       <CalciteSlider />
     </main>
   );
